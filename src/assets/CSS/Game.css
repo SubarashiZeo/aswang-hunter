@@ -1,0 +1,154 @@
+#root {
+  margin: 0 auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@font-face {
+  font-family:'hitSeriesAswang';
+  src: url('/static/fonts/aakhirtahun-webfont.woff2') format('woff2'),
+       url('/static/fonts/aakhirtahun-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family:'desc';
+  src: url('/static/fonts/Quintessential-Regular.ttf') format('truetype');
+}
+.parent{
+  max-width: fit-content;
+  align-self: center;
+  justify-content: center; 
+  width: 100%; 
+}
+
+.elements{
+  justify-content: left; 
+  align-items: left;  
+  font-family:'desc', sans-serifs;
+  background: rgb(72, 67, 52);
+  border: 5px solid rgb(25, 25, 33);
+  border-radius: 10px;
+  padding: 20px;
+  align-self: center;
+  align-content: center;
+  color: rgb(227, 227, 227);
+  max-height: 11rem; 
+  min-height: 11rem; 
+  min-width: 1rem; 
+  inset: 0;
+  display: inline-flexbox;
+  gap: 1rem; 
+}
+.elements p{
+  font-size:x-large;
+}
+.gameBG{
+  background: linear-gradient(to bottom, #5b5b58, #12110e);
+  position:fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.game{
+  font-family:'desc', sans-serifs;
+  color: rgb(208, 169, 61);
+  margin: 10px;
+  padding: 2rem;
+  text-align: center;
+  inset: 0px;
+  display: grid;
+  justify-content: center; 
+  align-items: center;     
+}
+.profile{
+  min-width: 6rem;
+  min-height: 6rem;
+  max-width: 6rem;
+  max-height: 6rem;
+  border: 5px solid #eed68e;
+  background:  radial-gradient(circle,rgba(135, 80, 41, 1) 34%, rgba(255, 205, 66, 1) 89%);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.profile img{
+  display: flex;
+  padding-right: 10px;
+  align-self: center;
+}
+
+.health{
+  background: linear-gradient(90deg, rgba(133, 37, 86, 1) 0%, rgba(235, 0, 0, 1) 69%);
+  width: 0%;
+  height: 3rem;
+  transition: width 0.3s ease-in-out;
+}
+.healthContainer{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.healthBG {
+  width: 100%;
+  justify-content:left;
+  align-items: center;
+  max-width: 100rem;
+  height: 4rem;
+  background-color: rgb(143, 160, 220);
+  border-radius: 10px;
+  border: 0.5rem #fac116 solid ;
+}
+
+.gBox {
+  justify-content: center; 
+  align-items: center;  
+  font-family:'desc', sans-serifs;
+  background: rgb(56, 52, 72);
+  border: 5px solid rgb(25, 25, 33);
+  border-radius: 10px;
+  padding: 10px;
+  align-self: center;
+  align-content: center;
+  color: rgb(227, 227, 227);
+  max-height: 20rem;
+  min-height: 20rem; 
+  min-width: 1rem; 
+  inset: 900px;
+  display:flexbox;
+}
+.choices{
+  font-family:'hitSeriesAswang', sans-serif !important;
+  justify-content: center; 
+  align-items: center;  
+  font-family:'desc', sans-serifs;
+  background: rgb(72, 67, 52);
+  border: 5px solid rgb(25, 25, 33);
+  border-radius: 10px;
+  padding: 21px;
+  align-self: center;
+  align-content: center;
+  color: rgb(227, 227, 227);
+  margin: 0;
+  padding: 20px; 
+  max-height: 10rem;
+  min-height: 10rem; 
+  min-width: 1rem; 
+  inset: 0;
+
+}
+.choices button{
+  margin: 10px;
+  padding: 20px;
+  inset: 0;
+  align-self: center;
+  min-width: 500px;
+  min-height: 50px;
+   background: rgb(254, 204, 69);
+   color: rgb(30, 30, 10);
+  display:inline; 
+}
+

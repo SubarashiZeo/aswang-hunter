@@ -1,0 +1,104 @@
+#root {
+  margin: 0 auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@font-face {
+  font-family:'hitSeriesAswang';
+  src: url('/static/fonts/aakhirtahun-webfont.woff2') format('woff2'),
+       url('/static/fonts/aakhirtahun-webfont.woff') format('woff');
+}
+.parent{
+  max-width: fit-content;
+  align-self: center;
+  justify-content: center; 
+  width: 100%; 
+}
+.start{
+  font-family:'hitSeriesAswang', sans-serif !important;
+  color: rgb(254, 204, 69);
+  margin: 0px;
+  padding: 100px;
+  background: linear-gradient(to bottom, #5b5b58, #12110e);
+  position:fixed;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  inset: 0px;
+}
+.start h1{
+  font-size: clamp(10rem, 10vw, 10rem);
+  font-weight: 20;
+  outline-width: 10;
+  outline-color: black;
+   text-shadow:
+    5px 5px 0 #000,
+   -5px 5px 0 #000,
+    5px -5px 0 #000,
+   -2px -5px 0 #000,
+    0px 5px 0 #000,
+    5px 0px 0 #000,
+   -5px 0px 0 #000,
+    0px -5px 0 #000;
+}
+.start h2{
+  outline-width: 10;
+  outline-color: black;
+   text-shadow:
+    3px 3px 0 #000,
+   -3px 3px 0 #000,
+    3px -3px 0 #000,
+   -3px -3px 0 #000,
+    0px 3px 0 #000,
+    3px 0px 0 #000,
+   -3px 0px 0 #000,
+    0px -3px 0 #000;
+}
+.start hr{
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: 20px;
+  background-color: #ffe07a; 
+}
+.start form{
+  display: flex;
+  display: subgrid;
+  place-content: center;
+  position: absolute;
+  margin-left: 390px;
+  padding: 15px;
+  justify-content: center;
+  width: auto;
+}
+.my-form-control:hover {
+  border-color:#ffe07a; 
+  border-width: 7px;
+  transform: scale(1); 
+  cursor: pointer;
+}
+.start button{
+  background-color:#ffe07a;
+  margin: 20px;
+  place-content: center;
+  justify-self: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  transition-duration: 0.1s;
+  border-radius: 10px;
+}
+.start button:hover{
+  background-color:#4a3f1b;
+  color: #ffffff;
+  margin: 20px;
+  place-content: center;
+  justify-self: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+}
+
