@@ -14,9 +14,9 @@ export default function App() {
     const query = (formData.get('query') || '').toString().trim().toLowerCase();
 
     if (query === 'aaron batungbakal' || query === 'aaron'|| query === 'batungbakal') {
-      alert('Ah, a man of culture');
+      alert('You are bound with your destiny as an Aswang Hunter');
     } else {
-      alert('WRONG, you are supposed to be Aaaron Batungbakal from Hit Series Aswang');
+      alert('Faith does not allow one to choose their idenity, you will assume the name of Aswang Hunter Aaaron Batungbakal');
     }
 
     navigate('/Game'); 
